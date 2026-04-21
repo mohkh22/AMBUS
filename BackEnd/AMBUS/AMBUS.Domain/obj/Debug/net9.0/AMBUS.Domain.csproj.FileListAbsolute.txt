@@ -1,0 +1,11 @@
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.deps.json
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.pdb
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.AssemblyInfoInputs.cache
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.AssemblyInfo.cs
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.csproj.CoreCompileInputs.cache
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\refint\AMBUS.Domain.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.pdb
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\ref\AMBUS.Domain.dll

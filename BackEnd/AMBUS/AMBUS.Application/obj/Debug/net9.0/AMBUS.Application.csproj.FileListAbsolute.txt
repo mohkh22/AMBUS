@@ -1,0 +1,15 @@
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\bin\Debug\net9.0\AMBUS.Application.deps.json
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\bin\Debug\net9.0\AMBUS.Application.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\bin\Debug\net9.0\AMBUS.Application.pdb
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\bin\Debug\net9.0\AMBUS.Domain.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\bin\Debug\net9.0\AMBUS.Domain.pdb
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.csproj.AssemblyReference.cache
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.AssemblyInfoInputs.cache
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.AssemblyInfo.cs
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.csproj.CoreCompileInputs.cache
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Ap.666307E4.Up2Date
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\refint\AMBUS.Application.dll
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\AMBUS.Application.pdb
+F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Application\obj\Debug\net9.0\ref\AMBUS.Application.dll
