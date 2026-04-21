@@ -189,9 +189,26 @@ The system is built using:
 --- 
 ## ERD 
  ![System Diagram](Screens/ERD.png)
+ 
+----
+## Screens 
+![Home Page](Screens/AMBUSHome.png)
+
+---
+![Register Page](Screens/AMBUSRegister.png)
+
+---
+![Login Page](Screens/AMBUSLogin.png)
+
+---
+![MyTrips Page](Screens/AMBUSMytrips.png)
+
+---
+![Booking Page](Screens/AMBUSbook.png)
+
 ## ⚙️ Installation
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/mohkh22/AMBUS
+git clone https://github.com/mohkh22/AMBUS.git
 
