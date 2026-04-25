@@ -1,6 +1,6 @@
 ﻿using AMBUS.Domain.Entities;
 using AMBUS.Domain.Enum;
-using AMBUS.Infrastructure.Identity.Models;
+using AMBUS.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

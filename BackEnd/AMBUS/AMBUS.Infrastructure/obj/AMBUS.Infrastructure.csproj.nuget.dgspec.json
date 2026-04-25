@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj": {}
+    "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj": {}
   },
   "projects": {
-    "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj": {
+    "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj",
+        "projectUniqueName": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj",
         "projectName": "AMBUS.Application",
-        "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj",
-        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\obj\\",
+        "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj",
+        "packagesPath": "C:\\Users\\El GaZaR\\.nuget\\packages\\",
+        "outputPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Users\\El GaZaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
-                "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj"
+              "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
+                "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj"
               }
             }
           }
@@ -59,11 +56,19 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[16.1.1, )"
+              "version": "[13.0.1, )"
             },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[12.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.15, )"
             }
           },
           "imports": [
@@ -82,26 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
+    "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj",
+        "projectUniqueName": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj",
         "projectName": "AMBUS.Domain",
-        "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\obj\\",
+        "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj",
+        "packagesPath": "C:\\Users\\El GaZaR\\.nuget\\packages\\",
+        "outputPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Users\\El GaZaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,7 +113,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -134,6 +136,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -150,26 +158,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj": {
+    "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj",
+        "projectUniqueName": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj",
         "projectName": "AMBUS.Infrastructure",
-        "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\obj\\",
+        "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\AMBUS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\El GaZaR\\.nuget\\packages\\",
+        "outputPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+          "C:\\Users\\El GaZaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,18 +184,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj": {
-                "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj"
+              "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj": {
+                "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Application\\AMBUS.Application.csproj"
               },
-              "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
-                "projectPath": "F:\\CollegeYears\\ProjectGraduation\\Project\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj"
+              "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj": {
+                "projectPath": "E:\\fgithub\\BackEnd\\AMBUS\\AMBUS.Domain\\AMBUS.Domain.csproj"
               }
             }
           }
@@ -255,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

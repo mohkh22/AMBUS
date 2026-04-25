@@ -7,17 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\" />
-    <Folder Include="Dtos\Response\" />
-    <Folder Include="Dtos\Request\" />
-    <Folder Include="Abstraction\" />
-    <Folder Include="FluentValidation\" />
-    <Folder Include="Exception\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="16.1.1" />
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.15" />
   </ItemGroup>
 
   <ItemGroup>

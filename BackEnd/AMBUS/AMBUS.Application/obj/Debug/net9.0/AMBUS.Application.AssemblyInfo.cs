@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMBUS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+174d57667d4eb2ba6e30461fbdc76c12a91ca89a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMBUS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMBUS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
