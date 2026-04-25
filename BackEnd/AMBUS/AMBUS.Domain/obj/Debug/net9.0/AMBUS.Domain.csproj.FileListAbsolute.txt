@@ -9,3 +9,16 @@ F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\n
 F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\refint\AMBUS.Domain.dll
 F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.pdb
 F:\CollegeYears\ProjectGraduation\Project\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\ref\AMBUS.Domain.dll
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.deps.json
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.dll
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\bin\Debug\net9.0\AMBUS.Domain.pdb
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.csproj.AssemblyReference.cache
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.AssemblyInfoInputs.cache
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.AssemblyInfo.cs
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.csproj.CoreCompileInputs.cache
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.sourcelink.json
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.dll
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\refint\AMBUS.Domain.dll
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\AMBUS.Domain.pdb
+E:\fgithub\BackEnd\AMBUS\AMBUS.Domain\obj\Debug\net9.0\ref\AMBUS.Domain.dll

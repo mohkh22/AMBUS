@@ -1,18 +1,22 @@
-﻿using AMBUS.Infrastructure.Data;
-using AMBUS.Infrastructure.Identity.Models;
+﻿using AMBUS.Application.Abstraction;
+using AMBUS.Domain.Entities;
+using AMBUS.Domain.Models;
+using AMBUS.Infrastructure.Data;
+using AMBUS.Infrastructure.Implementations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims; 
 using System.Text;
 
 namespace AMBUS.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddServicesFromInfrastructure(this IServiceCollection service, IConfiguration configuration )
+        public static IServiceCollection AddServicesFromInfrastructure(this IServiceCollection service, IConfiguration configuration)
         {
             service.AddDbContext<AppDbContext>(option =>
             {
@@ -30,6 +34,8 @@ namespace AMBUS.Infrastructure
 
             }).AddJwtBearer(option =>
             {
+                option.MapInboundClaims = false;
+
                 option.TokenValidationParameters = new TokenValidationParameters()
                 {
                     ValidateIssuer = true,
@@ -38,12 +44,22 @@ namespace AMBUS.Infrastructure
                     ClockSkew = TimeSpan.Zero,
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = configuration.GetSection("JWT:Issuer").Value,
-                    ValidAudience = configuration.GetSection("JWT:Audaince").Value,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("JWT:SecretKey").Value!))
+                    ValidAudience = configuration.GetSection("JWT:Audience").Value,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("JWT:SecretKey").Value!)),
+
+                    RoleClaimType = ClaimTypes.Role,
+                    NameClaimType = ClaimTypes.Name
                 };
-            }); 
+            });
+
+            service.AddScoped<IAuth, Auth>();
+            service.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+            service.AddTransient<IEmailService, EmailService>();
+
             
-            return service; 
+            service.Configure<EmailSetting>(configuration.GetSection("EmailSettings"));
+
+            return service;
         }
     }
 }

@@ -10,34 +10,21 @@
         "dependencies": {
           "AMBUS.Application": "1.0.0",
           "AMBUS.Infrastructure": "1.0.0",
+          "AutoMapper": "13.0.1",
           "Microsoft.EntityFrameworkCore.Design": "9.0.15"
         },
         "runtime": {
           "AMBUS.WebAPI.dll": {}
         }
       },
-      "AutoMapper/16.1.1": {
+      "AutoMapper/13.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
-          "Microsoft.Extensions.Options": "10.0.0",
-          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+          "Microsoft.Extensions.Options": "9.0.15"
         },
         "runtime": {
-          "lib/net9.0/AutoMapper.dll": {
-            "assemblyVersion": "16.0.0.0",
-            "fileVersion": "16.1.1.0"
-          }
-        }
-      },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
-        "dependencies": {
-          "AutoMapper": "16.1.1",
-          "Microsoft.Extensions.Options": "10.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.0"
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
           }
         }
       },
@@ -76,11 +63,41 @@
           }
         }
       },
+      "FluentValidation/12.1.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MediatR/14.1.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/MediatR.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.1.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -562,7 +579,7 @@
       },
       "Microsoft.Extensions.Caching.Abstractions/9.0.15": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.0"
+          "Microsoft.Extensions.Primitives": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -576,8 +593,8 @@
           "Microsoft.Extensions.Caching.Abstractions": "9.0.15",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
-          "Microsoft.Extensions.Options": "10.0.0",
-          "Microsoft.Extensions.Primitives": "10.0.0"
+          "Microsoft.Extensions.Options": "9.0.15",
+          "Microsoft.Extensions.Primitives": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -588,7 +605,7 @@
       },
       "Microsoft.Extensions.Configuration.Abstractions/9.0.15": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.0"
+          "Microsoft.Extensions.Primitives": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
@@ -628,7 +645,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "9.0.15",
           "Microsoft.Extensions.Logging": "9.0.15",
-          "Microsoft.Extensions.Options": "10.0.0"
+          "Microsoft.Extensions.Options": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Identity.Core.dll": {
@@ -654,7 +671,7 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.15",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.0",
-          "Microsoft.Extensions.Options": "10.0.0"
+          "Microsoft.Extensions.Options": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Logging.dll": {
@@ -675,23 +692,23 @@
           }
         }
       },
-      "Microsoft.Extensions.Options/10.0.0": {
+      "Microsoft.Extensions.Options/9.0.15": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
-          "Microsoft.Extensions.Primitives": "10.0.0"
+          "Microsoft.Extensions.Primitives": "9.0.15"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1526.17522"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/10.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.15": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1526.17522"
           }
         }
       },
@@ -1082,8 +1099,10 @@
       "AMBUS.Application/1.0.0": {
         "dependencies": {
           "AMBUS.Domain": "1.0.0",
-          "AutoMapper": "16.1.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+          "AutoMapper": "13.0.1",
+          "FluentValidation": "12.1.1",
+          "MediatR": "14.1.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.15"
         },
         "runtime": {
           "AMBUS.Application.dll": {
@@ -1093,6 +1112,9 @@
         }
       },
       "AMBUS.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.15"
+        },
         "runtime": {
           "AMBUS.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1124,19 +1146,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/16.1.1": {
+    "AutoMapper/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VNEky8JA15ci+oIDRGHITOGOpV4dILsf8pnn24QhDl2urtqgJ2IXiS/V2EtGU17P/+f6OeFQPJETaZXV9QOIZg==",
-      "path": "automapper/16.1.1",
-      "hashPath": "automapper.16.1.1.nupkg.sha512"
-    },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
-      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
-      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",
@@ -1152,12 +1167,33 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
+    "FluentValidation/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "path": "fluentvalidation/12.1.1",
+      "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MediatR/14.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdxza1pLqAk+06LV3THzNJrw5K5Ah6EC17TEkoC90gsAxwtXDJAQrGuDSDinHGgxWKWEn5ebqTNN3k1bLJOb0g==",
+      "path": "mediatr/14.1.0",
+      "hashPath": "mediatr.14.1.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.15": {
       "type": "package",
@@ -1376,19 +1412,19 @@
       "path": "microsoft.extensions.logging.abstractions/10.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/10.0.0": {
+    "Microsoft.Extensions.Options/9.0.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8oCAgXOow5XDrY9HaXX1QmH3ORsyZO/ANVHBlhLyCeWTH5Sg4UuqZeOTWJi6484M+LqSx0RqQXDJtdYy2BNiLQ==",
-      "path": "microsoft.extensions.options/10.0.0",
-      "hashPath": "microsoft.extensions.options.10.0.0.nupkg.sha512"
+      "sha512": "sha512-MbKKtaKGlvil2KWaA3x81l15mUorZGhqe4v8h3eLl7YU6gpOlfARnXYxHxx3GEakHl0De0zeu1kFm3u/NiPdKg==",
+      "path": "microsoft.extensions.options/9.0.15",
+      "hashPath": "microsoft.extensions.options.9.0.15.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/10.0.0": {
+    "Microsoft.Extensions.Primitives/9.0.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-inRnbpCS0nwO/RuoZIAqxQUuyjaknOOnCEZB55KSMMjRhl0RQDttSmLSGsUJN3RQ3ocf5NDLFd2mOQViHqMK5w==",
-      "path": "microsoft.extensions.primitives/10.0.0",
-      "hashPath": "microsoft.extensions.primitives.10.0.0.nupkg.sha512"
+      "sha512": "sha512-WRPJ9kpIwsOcghRT0tduIqiz7CDv7WsnL4kTJavtHS4j5AW++4LlR63oOSTL2o/zLR4T1z0/FQMgrnsPJ5bpQQ==",
+      "path": "microsoft.extensions.primitives/9.0.15",
+      "hashPath": "microsoft.extensions.primitives.9.0.15.nupkg.sha512"
     },
     "Microsoft.Identity.Client/4.61.3": {
       "type": "package",

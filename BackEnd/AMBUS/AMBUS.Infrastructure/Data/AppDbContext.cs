@@ -1,5 +1,5 @@
 ﻿using AMBUS.Domain.Entities;
-using AMBUS.Infrastructure.Identity.Models;
+using AMBUS.Domain.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

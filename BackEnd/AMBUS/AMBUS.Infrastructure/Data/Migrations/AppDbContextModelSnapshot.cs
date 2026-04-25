@@ -598,7 +598,7 @@ namespace AMBUS.Infrastructure.Migrations
                     b.ToTable("Trips");
                 });
 
-            modelBuilder.Entity("AMBUS.Infrastructure.Identity.Models.AppUser", b =>
+            modelBuilder.Entity("AMBUS.Domain.Models.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -607,11 +607,14 @@ namespace AMBUS.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DrivingLicense")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -621,11 +624,22 @@ namespace AMBUS.Infrastructure.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LicenseExpire")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NationalNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -802,7 +816,7 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("AMBUS.Domain.Entities.Book", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -838,13 +852,13 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("AMBUS.Domain.Entities.Chat", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("ReceiveId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("SendId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -853,7 +867,7 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("AMBUS.Domain.Entities.Driver", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -868,7 +882,7 @@ namespace AMBUS.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -896,7 +910,7 @@ namespace AMBUS.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -973,7 +987,7 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -982,7 +996,7 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -997,7 +1011,7 @@ namespace AMBUS.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1006,7 +1020,7 @@ namespace AMBUS.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("AMBUS.Infrastructure.Identity.Models.AppUser", null)
+                    b.HasOne("AMBUS.Domain.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

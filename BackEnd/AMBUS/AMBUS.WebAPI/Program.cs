@@ -9,6 +9,9 @@ builder.Services.AddServicesFromInfrastructure(builder.Configuration);
 builder.Services.AddServicesFromApplication(); 
 
 var app = builder.Build();
+await app.SeedDatabaseAsync();
+
+app.UseHttpsRedirection();
 app.UseRouting();
 app.UseStaticFiles(); 
 
